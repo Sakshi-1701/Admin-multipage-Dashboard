@@ -1,0 +1,8 @@
+.home{
+    flex:4;
+    background-color: rgba(227, 234, 251, 0.54);
+}
+.homeWidgets{
+   display: flex;
+   margin: 20px; 
+}

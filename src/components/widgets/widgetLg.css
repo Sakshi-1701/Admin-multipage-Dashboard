@@ -1,0 +1,48 @@
+.widgetLg{
+    flex:2;
+    box-shadow: 7px 4px 7px grey;
+    padding:20px ;
+    
+}
+.widgetLgTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.widgetLgImg{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.widgetLgTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widgetLgTh{
+    text-align: left;
+}
+
+.widgetLgDate, .widgetLgAmount{
+    font-weight: 350;
+}
+
+.widgetLgMainButton{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    /*background-color:rgba(139, 174, 196, 0.24);*/
+}
+
+.widgetLgMainButton.Verified{
+  color: rgb(8, 112, 8);
+  background-color: rgba(23, 193, 31, 0.19);
+  font-weight: 600;
+}
+.widgetLgMainButton.Pending{
+color: red;
+background-color: rgba(253, 36, 36, 0.151);
+font-weight: 600;
+}
